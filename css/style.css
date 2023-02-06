@@ -33,7 +33,9 @@ img{
     padding:20px;
     margin:5px 10px 20px 15px;
     border:dashed #d52020 5px;
+    border-radius: 10%;
 }
+
 
 dt{
     font-size: 200%;
@@ -54,12 +56,25 @@ li{
 }
 
 .active{
-    color:aqua;
-    border:solid 2px;
+    background-color: #f3c87f;
+    border-radius: 20%;
 }
 
-.skip{
-    position: absolute;
-    left: -1000px;
+img:hover{
+    opacity:0.3;
 }
 
+nav a{
+    text-decoration: none;
+}
+
+nav ul li{
+    display:inline;
+    padding: 20px 20px 20px 20px;
+    margin: 150px 0px 100px 180px;
+    font-size: 20px;
+}
+
+img:nth-child(2n+1) {
+    box-shadow: 10px 0px 10px rgb(203, 138, 40), -10px 0px 10px rgb(222, 134, 1)
+}
